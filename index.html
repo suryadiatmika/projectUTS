@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Geprek</title>
+</head>
+<body>
+    
+    <!-- NAVIGASI -->
+    <nav>
+        <ul>
+            <li>
+                <a href="#utama">Home</a>
+                <a href="index2.html">About</a>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- MAIN -->
+    <main id="utama">
+        <!-- BAGIAN 1 -->
+        <img src="asset/Logo.png" alt="Logo">
+        <h1 class="title">SI JAGO GEPREK</h1>
+        <p class="opening-text">Hai, anda lapar? Tenang! atasi laparmu dengan SI JAGO GEPREK!<br>Dijamin gurih dan pedasnya bikin Nagih!</p>
+        <button class="btn1"><a href="#title3" class="lihat-menu">Lihat Menu</a></button>
+            <h2 class="title2">PENGUMUMAN</h2>
+            <div class="pengumuman">
+            <marquee behavior="scroll" direction="left">Spesial untuk berdirinya SI JAGO GEPREK sudah setahun dan berlangsung sukses. Kami dari SI JAGO GEPREK
+            membagikan <b>1 Paket Geprek 1</b> gratis kepada para pelanggan setia sekalian! Event ini berlaku dari tanggal <b>1-5 November 2023!</b>
+            dengan syarat, pelanggan harus menjawab quiz dengan menklik tombol dibawah!</marquee>
+            </div>
+            <div class="center">
+                <button class="btn2"><a href="index3.html" class="link-quiz">Mulai Kerjakan Quiz</a></button>
+            </div>
+            
+            <!-- BAGIAN 2 -->
+            <h1 class="title3" id="title3">DAFTAR MENU</h1><br>
+            <div class="geprek-1">
+                <img src="asset/geprek-1.png" alt="geprek-1"><br>
+                <h2 class="harga1">Rp.12.000</h2>
+                <p class="deskripsi-menu1">Geprek Sayap + Nasi + Es Teh</p>
+            </div>
+            <div class="geprek-2">
+                <img src="asset/geprek-2.png" alt="geprek-2">
+                <h2 class="harga2">Rp.15.000</h2>
+                <p class="deskripsi-menu2">Geprek Paha Bawah + Nasi + Es Teh</p>
+            </div>
+            <div class="geprek-3">
+            <img src="asset/geprek-3.png" class="geprek-3" alt="geprek-3">
+            <h2 class="harga3">Rp.18.000</h2>
+            <p class="deskripsi-menu3">Geprek Dada + Nasi + Es Teh</p>
+            </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <br>
+        <h1 class="location">Lokasi Kami</h1>
+        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.00783732248!2d115.2237310741363!3d-8.69080338852229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2410294415595%3A0xb9b6c94ad0c08b24!2sINSTIKI%20INDONESIA!5e0!3m2!1sen!2sid!4v1699288601711!5m2!1sen!2sid" width="900" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h1 class="contact">Hubungi Kami!</h1>
+        <p class="deskripsi-kontak">Jika ada yang ingin anda tanyakan<br>
+            jangan ragu untuk menghubungi kami,<br> dengan mengirimkan pesan dibawah!
+        </p>
+        <br>
+        <label class="email-label" for="email">Email</label><br>
+        <input class="email" type="text" id="email"><br><br>
+        <label class="nama-label" for="nama">Nama</label><br>
+        <input class="nama" type="text" id="nama"><br><br>
+        <label class="pesan-label" for="pesan">Pesan</label><br>
+        <textarea class="pesan" id="pesan" cols="47" rows="10"></textarea><br>
+        <button id="kirim"><b>Kirim</b></button>
+    </footer>
+    <script>
+        let button = document.getElementById("kirim")
+        button.onclick = function() {
+        alert("Pesan anda sukses dikirimkan")
+    }
+    </script>
+</body>
+</html>

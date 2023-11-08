@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <!-- NAVIGASI -->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+                <a href="index2.html">About</a>
+                <a href="index.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>QUIZ SPESIAL 1th<br>SI JAGO GEPREK</h1>
+    <p>Pastikan menjawab quiz dengan benar ya! agar anda bisa mendapatkan rewardnya!</p>
+    <!-- QUIZ -->
+    <div id="pertanyaan1">
+    <label for="soal1">Siapakah nama pendiri SI JAGO GEPREK?</label><br><br>
+    <input type="text" id="soal1"><br><br>
+    <button onclick="hasil1()">Cek Jawaban</button>
+    </div>
+
+    <div id="pertanyaan2">
+    <label for="soal2">Tanggal berapa SI JAGO GEPREK didirikan?</label><br><br>
+    <input type="text" id="soal2"><br><br>
+    <button onclick="hasil2()">Cek Jawaban</button>
+    </div>
+
+    <div id="pertanyaan3">
+    <label for="soal3">Sebutkan 3 Varian Sambal dari SI JAGO GEPREK!</label><br><br>
+    <input type="text" id="soal3"><br><br>
+    <button onclick="hasil3()">Cek Jawaban</button>
+    </div>
+   <script>
+    function hasil1() {
+        let soal1 = document.getElementById("soal1").value;
+        if (soal1.toLowerCase() === "i putu gede surya diatmika") {
+            alert("Selamat, jawaban Anda '" + soal1 + "' benar!");
+            document.getElementById('pertanyaan1').style.display = 'none';
+            document.getElementById('pertanyaan2').style.display = 'block';
+        } else {
+            alert("Maaf, jawaban Anda '" + soal1 + "' salah.");
+        }
+    }
+
+    function hasil2() {
+        let soal2 = document.getElementById("soal2").value;
+        if (soal2.toLowerCase() === "1 november 2022") {
+            alert("Selamat, jawaban Anda '" + soal2 + "' benar!");
+            document.getElementById('pertanyaan2').style.display = 'none';
+            document.getElementById('pertanyaan3').style.display = 'block';
+        } else {
+            alert("Maaf, jawaban Anda '" + soal2 + "' salah.");
+        }
+    }
+
+    function hasil3() {
+        let soal3 = document.getElementById("soal3").value;
+        if (soal3.toLowerCase() === "sambal pedas, sambal ijo, sambal pedas manis") {
+            alert("Selamat, jawaban Anda '" + soal3 + "' benar!");
+            window.location.href = "index4.html"; 
+        } else {
+            alert("Maaf, jawaban Anda '" + soal3 + "' salah.");
+        }
+    }
+</script>
+
+</body>
+</html>

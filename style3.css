@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(44, 105, 44);
+}
+
+/* NAVIGASI */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    box-shadow: 7px 5px 10px black;
+    background-color: rgb(59, 120, 59);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+/* MAIN */
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+/* QUIZ */
+#pertanyaan1 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+#soal1 {
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 350px;
+}
+
+#soal1:focus {
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+#pertanyaan2 {
+    display: none;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#soal2 {
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 350px;
+}
+
+#soal2:focus {
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+#pertanyaan3 {
+    display: none;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#soal3 {
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 409px;
+}
+
+#soal3:focus {
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    width: 300px;
+    text-align: center;
+}
+
+button {
+    border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: white
+}

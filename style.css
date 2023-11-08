@@ -1,0 +1,280 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(44, 105, 44);
+}
+
+/* NAVIGASI */
+nav {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    box-shadow: 7px 5px 10px black;
+    background-color: rgb(59, 120, 59);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+/* BAGIAN 1 */
+img {
+    padding-top: 80px;
+    padding-left: 100px;
+    width: 450px;
+}
+
+.title {
+    font-size: 45px;
+    margin-left: 690px;
+    margin-top: -300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.opening-text {
+    text-align: left;
+    margin-top: -25px;
+    margin-left: 690px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.btn1 {
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    width: 110px;
+    height: 30px;
+    margin-left: 690px;    
+}
+
+.lihat-menu {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title2 {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pengumuman {
+    width: 100%;
+    height: 4vh;
+    background-color: rgb(59, 120, 59);
+    border: 2px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn2 {
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    width: 170px;
+    height: 30px;
+}
+
+.link-quiz {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+/* BAGIAN 2 */
+.title3 {
+    font-size: 40px;
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.geprek-1 {
+    margin-top: -170px;
+    margin-left: -90px;
+}
+
+.harga1 {
+    margin-top: -90px;
+    margin-left: 180px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.deskripsi-menu1 {
+    margin-left: 180px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.geprek-2 {
+    margin-top: -540px;
+    margin-left: 350px;
+}
+
+.harga2 {
+    margin-top: -85px;
+    margin-left: 180px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.deskripsi-menu2 {
+    margin-left: 180px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.geprek-3 {
+    margin-top: -270px;
+    margin-left: 375px;
+}
+
+.harga3 {
+    margin-top: -85px;
+    margin-left: 600px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.deskripsi-menu3 {
+    margin-left: 600px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* FOOTER */
+footer {
+    width: auto;
+    height: 660px;
+    background-color: rgb(59, 120, 59);
+    margin-top: 60px;
+}
+
+.maps {
+    margin-left: 400px;
+}
+
+.location {
+    margin-left: 400px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.contact {
+    margin: 10px 20px;
+    margin-top: -570px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.deskripsi-kontak {
+    margin: 10px 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.email-label {
+    margin: 10px 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.email {
+    margin: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 300px;
+}
+
+.email:focus {
+    color: white;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+.nama-label {
+    margin: 10px 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nama {
+    margin: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 300px;    
+}
+
+.nama:focus {
+    color: white;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+.pesan-label {
+    margin: 10px 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pesan {
+    margin: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 300px;  
+}
+
+.pesan:focus {
+    color: white;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+#kirim {
+    margin: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70px;
+    height: 25px;
+}
